@@ -30,12 +30,12 @@ function changeIcon(icon) {
 
 
 navbarCollapse.addEventListener('shown.bs.collapse', function () {
-    changeIcon('/Portifolio/assets/images/xbutton.svg');  // Ícone de "X"
+    changeIcon('/assets/images/xbutton.svg');  // Ícone de "X"
 });
 
 
 navbarCollapse.addEventListener('hidden.bs.collapse', function () {
-    changeIcon('/Portifolio/assets/images/burguer.svg'); 
+    changeIcon('/assets/images/burguer.svg'); 
 });
 
 
@@ -43,16 +43,16 @@ navbarCollapse.addEventListener('hidden.bs.collapse', function () {
 
 const icons = {
     "monitor-icon": {
-        default: "/Portifolio/assets/images/home/rectangle-duotone.svg",
-        hover: "/Portifolio/assets/images/home/rectangle-fill.svg"
+        default: "/assets/images/home/rectangle-duotone.svg",
+        hover: "/assets/images/home/rectangle-fill.svg"
     },
     "eye-icon": {
-        default: "/Portifolio/assets/images/home/eye-closed-duotone.svg",
-        hover: "/Portifolio/assets/images/home/eye-fill.svg"
+        default: "/assets/images/home/eye-closed-duotone.svg",
+        hover: "/assets/images/home/eye-fill.svg"
     },
     "book-icon": {
-        default: "/Portifolio/assets/images/home/book-duotone.svg",
-        hover: "/Portifolio/assets/images/home/book-open-text-fill.svg"
+        default: "/assets/images/home/book-duotone.svg",
+        hover: "/assets/images/home/book-open-text-fill.svg"
     }
 };
 
