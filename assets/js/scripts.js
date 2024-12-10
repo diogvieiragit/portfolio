@@ -29,13 +29,12 @@ function changeIcon(icon) {
 }
 
 
-navbarCollapse.addEventListener('shown.bs.collapse', function () {
-    changeIcon('/assets/images/xbutton.svg');  // Ícone de "X"
+navbarCollapse.addEventListener('shown.bs.collapse', () => {
+    changeIcon('/assets/images/xbutton.svg');
 });
 
-
-navbarCollapse.addEventListener('hidden.bs.collapse', function () {
-    changeIcon('/assets/images/burguer.svg'); 
+navbarCollapse.addEventListener('hidden.bs.collapse', () => {
+    changeIcon('/assets/images/burguer.svg');
 });
 
 
