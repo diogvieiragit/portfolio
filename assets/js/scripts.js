@@ -12,33 +12,6 @@ navbarToggler.addEventListener('click', () => {
 /*-------------------------------------------------------------------*/
 
 
-const hamburgerIcon = document.getElementById('hamburger-icon');
-const navbarCollapse = document.getElementById('navbarSupportedContent');
-
-
-function changeIcon(icon) {
-    hamburgerIcon.style.transition = 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out';
-    hamburgerIcon.style.opacity = 0; 
-    hamburgerIcon.style.transform = 'scale(0.8)';  
-
-    setTimeout(function () {
-        hamburgerIcon.src = icon; 
-        hamburgerIcon.style.opacity = 1; 
-        hamburgerIcon.style.transform = 'scale(1)'; 
-    }, 200); 
-}
-
-
-navbarCollapse.addEventListener('shown.bs.collapse', () => {
-    changeIcon('/assets/images/xbutton.svg');
-});
-
-navbarCollapse.addEventListener('hidden.bs.collapse', () => {
-    changeIcon('/assets/images/burguer.svg');
-});
-
-
-/*-------------------------------------------------------------------------*/
 
 const icons = {
     "monitor-icon": {
