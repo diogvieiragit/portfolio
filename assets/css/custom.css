@@ -10,12 +10,6 @@
     background-color: black;
 }
 
-image {
-  image-rendering: crisp-edges; /* Ou pixelated */
-}
-
-
-
 /*------------------------------------------NAVBAR------------------------------------------*/
 
 .navbar-brand {
