@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+.profile-img {
+    max-width: 75%;
+    min-width: 300px; /* Define um tamanho mínimo para evitar que a imagem fique muito pequena */
+}
+
+
+.about-text {
+    color: var(--text_hover);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    user-select: none;
+    -webkit-user-drag: none;
+    font-size: 2.8rem;
+    line-height: 1.6;
+}
+
+.experience-text {
+    color: var(--text);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    user-select: none;
+    -webkit-user-drag: none;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.education-text {
+    color: var(--text);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    user-select: none;
+    -webkit-user-drag: none;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text_hover);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.first-extra {
+    padding-top: 0.1rem !important;
+}
+
+.col-md-6 p strong {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 991px) {
+    .row > div {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .about-text {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 1rem;
+        text-align: right;
+    }
+    
+    .experience-text,
+    .education-text {
+        font-size: 1.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .section-title {
+        padding-left: 1.4rem;
+        font-size: 1.5rem;
+    }
+    
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .profile-img {
+        max-width: 60% !important;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-text {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .about-text {
+        font-size: 1.2rem;
+    }
+    
+    .experience-text,
+    .education-text {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+@media (max-width: 431px) {
+
+    .about-text {
+        padding-left: 2rem;
+        padding-right: 0.5rem;
+    }
+    
+    .experience-text,
+    .education-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section-title {
+        padding-left: 1.4rem;
+    }
+
+    .first-extra {
+        padding-left: 1.2rem !important;
+    }
+    
+
+}
